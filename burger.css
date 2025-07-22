@@ -1116,16 +1116,26 @@ img {
 @media screen and (max-width:450px) {
     .menu>.item {
         display: none;
+        position: relative;
 
     }
 
     .icon-menu {
         display: block;
-        margin-left: 80%;
+        position: absolute;
+        left: 75%;
+        bottom: 4%;
         cursor: pointer;
     }
+    .cart>.item6{
+        position: absolute;
+        bottom: 4%;
+        left: 86%;
+    }
     .cart>.value {
-        margin-left: 110px;
+        /* margin-left: 80px; */
+        position: absolute;
+        left: 90%;
         
     }
 
