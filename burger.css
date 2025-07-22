@@ -16,6 +16,7 @@
     /* padding-top: 10px; */
     z-index: 999;
     width: 100%;
+    border: 2px solid;
     /* padding-bottom: 20%; */
 }
 
@@ -1114,6 +1115,9 @@ img {
 }
 
 @media screen and (max-width:450px) {
+    .conatiner1{
+        width:100%;
+    }
     .menu>.item {
         display: none;
         position: relative;
